@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>desafio 01</title>
+</head>
+<body>
+    <main>
+        <h1>01 Estrutura de dados</h1>
+        <p id="msg">Verificar o resultado do script no inspecionar, opção Console.</p>
+
+        <h2> Prévia do resultado do Console</h2>
+        <form>
+            <fieldset>
+                <legend>Entrada de dados</legend>
+                <label><p><span class="tipo">const</span> nome = "Charles"</p></label>            
+                <label><p><span class="tipo">const</span> numeroGuardado = 1999;</p></label>            
+                <label><p><span class="tipo">const</span> anoAtual = 2022;</p></label>
+            </fieldset>
+            <fieldset><legend>Processamento</legend>
+                <label><p><span class="tipo">let </span>resultSubtracao = anoAtual - numeroGuardado;</p></label>
+                <label><p><span class="tipo">let</span> resultAdicao = anoAtual + numeroGuardado;</p></label>
+                <label><p><span class="tipo">let</span> quartaFeira = false;</p></label>
+                <label><p><span class="console">console</span><span class="log">.log</span>(`O resultado da subtração entre o número guardado ${anoAtual} e o ano atual ${numeroGuardado} é
+                ${resultSubtracao}`);</p></label>
+                <label><p><span class="console">console</span><span class="log">.log</span>(`O resultado da adição entre o número guardado ${anoAtual} e o ano atual ${numeroGuardado} é
+                ${resultAdicao}`);</p></label>
+                <label><p><span class="console">console</span><span class="log">.log</span>("Estou mexendo no console.log");</p></label>
+                <label><p><span class="console">console</span><span class="log">.log</span>(`Hoje é quarta feira? verdade ou falso? \n${quartaFeira}`);</p></label>
+                <label><p><span class="console">console</span><span class="log">.log</span>(typeof(quartaFeira));</p></label>
+            </fieldset>
+            <fieldset class="saida"><legend>Saida de dados</legend>
+                <label><p>O resultado da subtração entre o número guardado 2022 e o ano atual 1999 é 23</p></label>
+                <label><p>O resultado da adição entre o número guardado 2022 e o ano atual 1999 é 4021</p></label>
+                <label><p>Estou mexendo no console.log</p></label>
+                <label><p>Hoje é quarta feira? verdade ou falso?</p></label>
+                <label><p>false</p></label>
+                <label><p>O tipo de dado da váriavel quartaFeira é boolean</p></label>
+            </fieldset>
+        </form>
+    </main>
+
+
+    <script>
+
+        const nome = "Charles";
+        const numeroGuardado = 1999;
+        const anoAtual = 2022;
+        let resultSubtracao = anoAtual - numeroGuardado;
+        let resultAdicao = anoAtual + numeroGuardado;
+        let quartaFeira = false;
+        
+        console.log(`O resultado da subtração entre o número guardado ${anoAtual} e o ano atual ${numeroGuardado} é ${resultSubtracao}`);
+        console.log(`O resultado da adição entre o número guardado ${anoAtual} e o ano atual ${numeroGuardado} é ${resultAdicao}`);
+        console.log("Estou mexendo no console.log");
+        console.log(`Hoje é quarta feira? verdade ou falso? \n${quartaFeira}`);
+        console.log("O tipo de dado da váriavel quartaFeira é "+typeof(quartaFeira));
+
+    </script>
+</body>
+</html>

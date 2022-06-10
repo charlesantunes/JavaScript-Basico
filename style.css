@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    color: darksalmon;
+}
+h1,h2,#msg{
+    text-align: center;
+    padding-bottom: 2vw;
+    text-transform: uppercase;
+    color: cyan;
+}
+#msg {
+    color: #FFFFFF;
+    margin-bottom: 10vh;
+}
+form{
+    width: 70%;
+    height: 40vw;
+    position: relative;
+    left: 15%;
+    right: 15%;
+}
+fieldset{
+    padding: 0 2% 0 2%;
+}
+legend{
+    text-align: center;
+    font-size: 1.8vw;
+    color: cornflowerblue;
+}
+p{
+    padding-bottom: 1vh;
+}
+.tipo{
+    color: cornflowerblue;
+}
+.console{
+    color: aquamarine;
+}
+.log{
+    color: darkkhaki;
+}
+.saida p{
+    color:#FFFFFF;
+}
